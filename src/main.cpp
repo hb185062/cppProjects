@@ -50,3 +50,15 @@ void print_menu(string name)
         cout << "Sorry choice hasn't been implemented.\n";
     }
 }
+
+void add_item()
+{
+    cout << "\n\n\n\n\n";
+    cout << "*** Add Item ***\n";
+    cout << "Type in an item and press enter: ";
+
+    string item;
+    cin >> item;
+
+    list.push_back(item);
+}
