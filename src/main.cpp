@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 void print_menu(string name);
@@ -6,13 +8,16 @@ void print_list();
 void add_item();
 void delete_item();
 
+vector<string> list;
+string name;
+
 int main(int arg_count, char *args[])
 {
     //cout << arg_count << endl;
 
     if (arg_count > 1)
     {
-        string name (args[1]);
+        name = string(args[1]);
         print_menu(name);
     }
     else
