@@ -2,6 +2,9 @@
 using namespace std;
 
 void print_menu(string name);
+void print_list();
+void add_item();
+void delete_item();
 
 int main(int arg_count, char *args[])
 {
