@@ -3,13 +3,24 @@
 #include <openssl/aes.h>
 #include <openssl/rand.h>
 
+using namespace std;
+
 class aescrypto
 {
     private:
-        /* data */
+
+    protected:
+
     public:
-        aescrypto(/* args */);
-        ~aescrypto();
+        aescrypto()
+        {
+
+        }
+        ~aescrypto()
+        {
+
+        }
+
         int encrypt();
         int decrypt();
 };

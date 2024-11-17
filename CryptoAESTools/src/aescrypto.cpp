@@ -1,18 +1,11 @@
 #include "include/aescrypto.h"
 
-class aescrypto
+int aescrypto::encrypt()
 {
-private:
-    /* data */
-public:
-    aescrypto(/* args */);
-    ~aescrypto();
-};
-
-aescrypto::aescrypto(/* args */)
-{
+    
 }
 
-aescrypto::~aescrypto()
+int aescrypto::encrypt()
 {
+
 }

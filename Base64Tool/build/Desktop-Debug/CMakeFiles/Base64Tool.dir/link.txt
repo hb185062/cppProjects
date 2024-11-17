@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g CMakeFiles/Base64Tool.dir/main.cpp.o CMakeFiles/Base64Tool.dir/base64manager.cpp.o -o Base64Tool

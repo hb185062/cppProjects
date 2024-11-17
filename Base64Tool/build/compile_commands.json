@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/hanybakir/mydev/cppProjects/Base64Tool/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/Base64Tool.dir/main.cpp.o -c /home/hanybakir/mydev/cppProjects/Base64Tool/main.cpp",
+  "file": "/home/hanybakir/mydev/cppProjects/Base64Tool/main.cpp",
+  "output": "CMakeFiles/Base64Tool.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hanybakir/mydev/cppProjects/Base64Tool/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/Base64Tool.dir/base64manager.cpp.o -c /home/hanybakir/mydev/cppProjects/Base64Tool/base64manager.cpp",
+  "file": "/home/hanybakir/mydev/cppProjects/Base64Tool/base64manager.cpp",
+  "output": "CMakeFiles/Base64Tool.dir/base64manager.cpp.o"
+}
+]
